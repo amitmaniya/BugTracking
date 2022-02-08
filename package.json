@@ -1,0 +1,19 @@
+{
+  "name": "bug-tracking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitmaniya/BugTracking.git"
+  },
+  "author": "Amit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitmaniya/BugTracking/issues"
+  },
+  "homepage": "https://github.com/amitmaniya/BugTracking#readme"
+}
