@@ -1,19 +1,10 @@
 {
-  "name": "bug-tracking",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "mongos": "^0.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amitmaniya/BugTracking.git"
-  },
-  "author": "Amit",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/amitmaniya/BugTracking/issues"
-  },
-  "homepage": "https://github.com/amitmaniya/BugTracking#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
