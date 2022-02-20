@@ -47,7 +47,7 @@ module.exports.getAllmodule = function (req, res) {
 }
 
 //delete
-module.exports.moduleUser = function(req,res){
+module.exports.deletemodule = function(req,res){
     //params userid 
     let moduleId = req.params.moduleId //postman -> userid 
 
