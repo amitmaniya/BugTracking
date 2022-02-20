@@ -47,7 +47,7 @@ module.exports.getAlltask = function (req, res) {
 }
 
 //delete
-module.exports.taskUser = function(req,res){
+module.exports.deleteTask = function(req,res){
     //params userid 
     let taskId = req.params.taskId //postman -> userid 
 
