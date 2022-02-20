@@ -1,4 +1,4 @@
-const ModuleModel = require("../model/task-model")
+const TaskModel = require("../model/task-model")
 
 
 //add [ POST ]
