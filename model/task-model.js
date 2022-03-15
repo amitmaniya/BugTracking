@@ -14,12 +14,16 @@ let TaskSchema = new mongoose.Schema({
             type:String
         },
         startDate:{
-            type:Date
+            type:String
         },
         priorityId : {
                 type:mongoose.Schema.Types.ObjectId,
                 ref:"priority"
         },
+        projectId : {
+            type:mongoose.Schema.Types.ObjectId,
+            ref:"project"
+    },
         moduleId : {
             type:mongoose.Schema.Types.ObjectId,
             ref:"module"
@@ -30,6 +34,3 @@ let TaskSchema = new mongoose.Schema({
 }
 })
 
-
-const TaskModel = mongoose.model("task",TaskSchema)
-module.exports = TaskModel
